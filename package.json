@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "JavaScript development environment",
   "scripts": {
+    "prestart": "node build-scripts/start-message",
+    "start": "node build-scripts/src-server"
   },
   "author": "Stewart Barron",
   "license": "MIT",
